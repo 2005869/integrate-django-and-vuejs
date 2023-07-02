@@ -38,6 +38,9 @@ python3 manage.py migrate
 
 # create a superuser
 python3 manage.py createsuperuser
+
+# load data
+python3 manage.py loaddata storedata/fixtures/data.json
 ```
 
 ## Run the server
@@ -58,4 +61,5 @@ python3 manage.py runserver
 
 ## Testing the project
 
+At this point you already have data in your database, but I recomended that you go ahead and add your own data.
 In your favorite browser first access http://localhost:8000/admin and do login with your superuser, insert some data in database, this project have a simple model that contain only the fields **name** and **age** to fill. Go and insert some data and when you are satisfied go to http://localhost:8080 and you will see the data that you insert in Django show in a Vue.JS project.
