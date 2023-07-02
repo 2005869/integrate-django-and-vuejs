@@ -1,0 +1,26 @@
+[
+{
+  "model": "storedata.person",
+  "pk": 1,
+  "fields": {
+    "name": "Ana",
+    "age": 22
+  }
+},
+{
+  "model": "storedata.person",
+  "pk": 2,
+  "fields": {
+    "name": "Isa",
+    "age": 22
+  }
+},
+{
+  "model": "storedata.person",
+  "pk": 3,
+  "fields": {
+    "name": "Brian",
+    "age": 55
+  }
+}
+]
